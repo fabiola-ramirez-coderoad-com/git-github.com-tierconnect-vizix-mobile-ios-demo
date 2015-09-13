@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		205BDC161BA1D10100B138F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205BDC151BA1D10100B138F9 /* AppDelegate.swift */; };
+		205BDC181BA1D10100B138F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205BDC171BA1D10100B138F9 /* ViewController.swift */; };
+		205BDC1B1BA1D10100B138F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205BDC191BA1D10100B138F9 /* Main.storyboard */; };
+		205BDC1D1BA1D10100B138F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 205BDC1C1BA1D10100B138F9 /* Images.xcassets */; };
+		205BDC201BA1D10100B138F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 205BDC1E1BA1D10100B138F9 /* LaunchScreen.xib */; };
+		205BDC2C1BA1D10100B138F9 /* TagFinderSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205BDC2B1BA1D10100B138F9 /* TagFinderSwiftTests.swift */; };
+		205BDC371BA1D1E000B138F9 /* TSLAsciiCommands.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 205BDC361BA1D1E000B138F9 /* TSLAsciiCommands.framework */; };
+		205BDC391BA1D20600B138F9 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 205BDC381BA1D20600B138F9 /* ExternalAccessory.framework */; };
+		205BDC3B1BA1E4ED00B138F9 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205BDC3A1BA1E4EC00B138F9 /* Tag.swift */; };
+		205BDC3D1BA2063D00B138F9 /* TagFinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205BDC3C1BA2063D00B138F9 /* TagFinderViewController.swift */; };
+		205BDC431BA20A4400B138F9 /* TSLSelectReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 205BDC401BA20A4400B138F9 /* TSLSelectReaderViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		205BDC261BA1D10100B138F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 205BDC081BA1D10100B138F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 205BDC0F1BA1D10100B138F9;
+			remoteInfo = TagFinderSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		205BDC101BA1D10100B138F9 /* TagFinderSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagFinderSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		205BDC141BA1D10100B138F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		205BDC151BA1D10100B138F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		205BDC171BA1D10100B138F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		205BDC1A1BA1D10100B138F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		205BDC1C1BA1D10100B138F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		205BDC1F1BA1D10100B138F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		205BDC251BA1D10100B138F9 /* TagFinderSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagFinderSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		205BDC2A1BA1D10100B138F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		205BDC2B1BA1D10100B138F9 /* TagFinderSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagFinderSwiftTests.swift; sourceTree = "<group>"; };
+		205BDC361BA1D1E000B138F9 /* TSLAsciiCommands.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TSLAsciiCommands.framework; sourceTree = "<group>"; };
+		205BDC381BA1D20600B138F9 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		205BDC3A1BA1E4EC00B138F9 /* Tag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		205BDC3C1BA2063D00B138F9 /* TagFinderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagFinderViewController.swift; sourceTree = "<group>"; };
+		205BDC3F1BA20A4400B138F9 /* TagFinderSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TagFinderSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		205BDC401BA20A4400B138F9 /* TSLSelectReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSLSelectReaderViewController.m; sourceTree = "<group>"; };
+		205BDC411BA20A4400B138F9 /* TSLSelectReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSLSelectReaderViewController.h; sourceTree = "<group>"; };
+		205BDC421BA20A4400B138F9 /* TSLSelectReaderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSLSelectReaderProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		205BDC0D1BA1D10100B138F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205BDC391BA1D20600B138F9 /* ExternalAccessory.framework in Frameworks */,
+				205BDC371BA1D1E000B138F9 /* TSLAsciiCommands.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205BDC221BA1D10100B138F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		205BDC071BA1D10100B138F9 = {
+			isa = PBXGroup;
+			children = (
+				205BDC121BA1D10100B138F9 /* TagFinderSwift */,
+				205BDC281BA1D10100B138F9 /* TagFinderSwiftTests */,
+				205BDC111BA1D10100B138F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		205BDC111BA1D10100B138F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				205BDC101BA1D10100B138F9 /* TagFinderSwift.app */,
+				205BDC251BA1D10100B138F9 /* TagFinderSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		205BDC121BA1D10100B138F9 /* TagFinderSwift */ = {
+			isa = PBXGroup;
+			children = (
+				205BDC3E1BA209D000B138F9 /* Select Reader */,
+				205BDC151BA1D10100B138F9 /* AppDelegate.swift */,
+				205BDC171BA1D10100B138F9 /* ViewController.swift */,
+				205BDC3C1BA2063D00B138F9 /* TagFinderViewController.swift */,
+				205BDC3A1BA1E4EC00B138F9 /* Tag.swift */,
+				205BDC191BA1D10100B138F9 /* Main.storyboard */,
+				205BDC1C1BA1D10100B138F9 /* Images.xcassets */,
+				205BDC1E1BA1D10100B138F9 /* LaunchScreen.xib */,
+				205BDC351BA1D11E00B138F9 /* Frameworks */,
+				205BDC131BA1D10100B138F9 /* Supporting Files */,
+			);
+			path = TagFinderSwift;
+			sourceTree = "<group>";
+		};
+		205BDC131BA1D10100B138F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				205BDC141BA1D10100B138F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		205BDC281BA1D10100B138F9 /* TagFinderSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				205BDC2B1BA1D10100B138F9 /* TagFinderSwiftTests.swift */,
+				205BDC291BA1D10100B138F9 /* Supporting Files */,
+			);
+			path = TagFinderSwiftTests;
+			sourceTree = "<group>";
+		};
+		205BDC291BA1D10100B138F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				205BDC2A1BA1D10100B138F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		205BDC351BA1D11E00B138F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				205BDC381BA1D20600B138F9 /* ExternalAccessory.framework */,
+				205BDC361BA1D1E000B138F9 /* TSLAsciiCommands.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		205BDC3E1BA209D000B138F9 /* Select Reader */ = {
+			isa = PBXGroup;
+			children = (
+				205BDC401BA20A4400B138F9 /* TSLSelectReaderViewController.m */,
+				205BDC411BA20A4400B138F9 /* TSLSelectReaderViewController.h */,
+				205BDC421BA20A4400B138F9 /* TSLSelectReaderProtocol.h */,
+				205BDC3F1BA20A4400B138F9 /* TagFinderSwift-Bridging-Header.h */,
+			);
+			name = "Select Reader";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		205BDC0F1BA1D10100B138F9 /* TagFinderSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 205BDC2F1BA1D10100B138F9 /* Build configuration list for PBXNativeTarget "TagFinderSwift" */;
+			buildPhases = (
+				205BDC0C1BA1D10100B138F9 /* Sources */,
+				205BDC0D1BA1D10100B138F9 /* Frameworks */,
+				205BDC0E1BA1D10100B138F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TagFinderSwift;
+			productName = TagFinderSwift;
+			productReference = 205BDC101BA1D10100B138F9 /* TagFinderSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		205BDC241BA1D10100B138F9 /* TagFinderSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 205BDC321BA1D10100B138F9 /* Build configuration list for PBXNativeTarget "TagFinderSwiftTests" */;
+			buildPhases = (
+				205BDC211BA1D10100B138F9 /* Sources */,
+				205BDC221BA1D10100B138F9 /* Frameworks */,
+				205BDC231BA1D10100B138F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				205BDC271BA1D10100B138F9 /* PBXTargetDependency */,
+			);
+			name = TagFinderSwiftTests;
+			productName = TagFinderSwiftTests;
+			productReference = 205BDC251BA1D10100B138F9 /* TagFinderSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		205BDC081BA1D10100B138F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Fabiola Ramirez";
+				TargetAttributes = {
+					205BDC0F1BA1D10100B138F9 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					205BDC241BA1D10100B138F9 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 205BDC0F1BA1D10100B138F9;
+					};
+				};
+			};
+			buildConfigurationList = 205BDC0B1BA1D10100B138F9 /* Build configuration list for PBXProject "TagFinderSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 205BDC071BA1D10100B138F9;
+			productRefGroup = 205BDC111BA1D10100B138F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				205BDC0F1BA1D10100B138F9 /* TagFinderSwift */,
+				205BDC241BA1D10100B138F9 /* TagFinderSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		205BDC0E1BA1D10100B138F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205BDC1B1BA1D10100B138F9 /* Main.storyboard in Resources */,
+				205BDC201BA1D10100B138F9 /* LaunchScreen.xib in Resources */,
+				205BDC1D1BA1D10100B138F9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205BDC231BA1D10100B138F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		205BDC0C1BA1D10100B138F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205BDC3B1BA1E4ED00B138F9 /* Tag.swift in Sources */,
+				205BDC181BA1D10100B138F9 /* ViewController.swift in Sources */,
+				205BDC431BA20A4400B138F9 /* TSLSelectReaderViewController.m in Sources */,
+				205BDC161BA1D10100B138F9 /* AppDelegate.swift in Sources */,
+				205BDC3D1BA2063D00B138F9 /* TagFinderViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205BDC211BA1D10100B138F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205BDC2C1BA1D10100B138F9 /* TagFinderSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		205BDC271BA1D10100B138F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 205BDC0F1BA1D10100B138F9 /* TagFinderSwift */;
+			targetProxy = 205BDC261BA1D10100B138F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		205BDC191BA1D10100B138F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				205BDC1A1BA1D10100B138F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		205BDC1E1BA1D10100B138F9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				205BDC1F1BA1D10100B138F9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		205BDC2D1BA1D10100B138F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		205BDC2E1BA1D10100B138F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		205BDC301BA1D10100B138F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TagFinderSwift",
+				);
+				INFOPLIST_FILE = TagFinderSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TagFinderSwift/TagFinderSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		205BDC311BA1D10100B138F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TagFinderSwift",
+				);
+				INFOPLIST_FILE = TagFinderSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TagFinderSwift/TagFinderSwift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		205BDC331BA1D10100B138F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TagFinderSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagFinderSwift.app/TagFinderSwift";
+			};
+			name = Debug;
+		};
+		205BDC341BA1D10100B138F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TagFinderSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagFinderSwift.app/TagFinderSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		205BDC0B1BA1D10100B138F9 /* Build configuration list for PBXProject "TagFinderSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205BDC2D1BA1D10100B138F9 /* Debug */,
+				205BDC2E1BA1D10100B138F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		205BDC2F1BA1D10100B138F9 /* Build configuration list for PBXNativeTarget "TagFinderSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205BDC301BA1D10100B138F9 /* Debug */,
+				205BDC311BA1D10100B138F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		205BDC321BA1D10100B138F9 /* Build configuration list for PBXNativeTarget "TagFinderSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205BDC331BA1D10100B138F9 /* Debug */,
+				205BDC341BA1D10100B138F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 205BDC081BA1D10100B138F9 /* Project object */;
+}
